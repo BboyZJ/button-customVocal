@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CB0DD01E7F761B00517DB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB0DCF1E7F761B00517DB0 /* main.m */; };
+		02CB0DD31E7F761B00517DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB0DD21E7F761B00517DB0 /* AppDelegate.m */; };
+		02CB0DD61E7F761B00517DB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB0DD51E7F761B00517DB0 /* ViewController.m */; };
+		02CB0DD91E7F761B00517DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CB0DD71E7F761B00517DB0 /* Main.storyboard */; };
+		02CB0DDB1E7F761B00517DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CB0DDA1E7F761B00517DB0 /* Assets.xcassets */; };
+		02CB0DDE1E7F761B00517DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CB0DDC1E7F761B00517DB0 /* LaunchScreen.storyboard */; };
+		02CB0DE91E7F761B00517DB0 /* button_customVocalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB0DE81E7F761B00517DB0 /* button_customVocalTests.m */; };
+		02CB0DF41E7F761B00517DB0 /* button_customVocalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CB0DF31E7F761B00517DB0 /* button_customVocalUITests.m */; };
+		02CB0E031E7F766500517DB0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CB0E021E7F766500517DB0 /* AVFoundation.framework */; };
+		02CB0E051E7F78FC00517DB0 /* tabBarVocal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02CB0E041E7F78FC00517DB0 /* tabBarVocal.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02CB0DE51E7F761B00517DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02CB0DC31E7F761B00517DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02CB0DCA1E7F761B00517DB0;
+			remoteInfo = "button-customVocal";
+		};
+		02CB0DF01E7F761B00517DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02CB0DC31E7F761B00517DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02CB0DCA1E7F761B00517DB0;
+			remoteInfo = "button-customVocal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CB0DCB1E7F761B00517DB0 /* button-customVocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "button-customVocal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CB0DCF1E7F761B00517DB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02CB0DD11E7F761B00517DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02CB0DD21E7F761B00517DB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02CB0DD41E7F761B00517DB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02CB0DD51E7F761B00517DB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02CB0DD81E7F761B00517DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02CB0DDA1E7F761B00517DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02CB0DDD1E7F761B00517DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02CB0DDF1E7F761B00517DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02CB0DE41E7F761B00517DB0 /* button-customVocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "button-customVocalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CB0DE81E7F761B00517DB0 /* button_customVocalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = button_customVocalTests.m; sourceTree = "<group>"; };
+		02CB0DEA1E7F761B00517DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02CB0DEF1E7F761B00517DB0 /* button-customVocalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "button-customVocalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CB0DF31E7F761B00517DB0 /* button_customVocalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = button_customVocalUITests.m; sourceTree = "<group>"; };
+		02CB0DF51E7F761B00517DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02CB0E021E7F766500517DB0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		02CB0E041E7F78FC00517DB0 /* tabBarVocal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tabBarVocal.mp3; path = ../tabBarVocal.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02CB0DC81E7F761B00517DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CB0E031E7F766500517DB0 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CB0DE11E7F761B00517DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CB0DEC1E7F761B00517DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CB0DC21E7F761B00517DB0 = {
+			isa = PBXGroup;
+			children = (
+				02CB0DCD1E7F761B00517DB0 /* button-customVocal */,
+				02CB0DE71E7F761B00517DB0 /* button-customVocalTests */,
+				02CB0DF21E7F761B00517DB0 /* button-customVocalUITests */,
+				02CB0DCC1E7F761B00517DB0 /* Products */,
+				02CB0E011E7F766500517DB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02CB0DCC1E7F761B00517DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02CB0DCB1E7F761B00517DB0 /* button-customVocal.app */,
+				02CB0DE41E7F761B00517DB0 /* button-customVocalTests.xctest */,
+				02CB0DEF1E7F761B00517DB0 /* button-customVocalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02CB0DCD1E7F761B00517DB0 /* button-customVocal */ = {
+			isa = PBXGroup;
+			children = (
+				02CB0E041E7F78FC00517DB0 /* tabBarVocal.mp3 */,
+				02CB0DD11E7F761B00517DB0 /* AppDelegate.h */,
+				02CB0DD21E7F761B00517DB0 /* AppDelegate.m */,
+				02CB0DD41E7F761B00517DB0 /* ViewController.h */,
+				02CB0DD51E7F761B00517DB0 /* ViewController.m */,
+				02CB0DD71E7F761B00517DB0 /* Main.storyboard */,
+				02CB0DDA1E7F761B00517DB0 /* Assets.xcassets */,
+				02CB0DDC1E7F761B00517DB0 /* LaunchScreen.storyboard */,
+				02CB0DDF1E7F761B00517DB0 /* Info.plist */,
+				02CB0DCE1E7F761B00517DB0 /* Supporting Files */,
+			);
+			path = "button-customVocal";
+			sourceTree = "<group>";
+		};
+		02CB0DCE1E7F761B00517DB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02CB0DCF1E7F761B00517DB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02CB0DE71E7F761B00517DB0 /* button-customVocalTests */ = {
+			isa = PBXGroup;
+			children = (
+				02CB0DE81E7F761B00517DB0 /* button_customVocalTests.m */,
+				02CB0DEA1E7F761B00517DB0 /* Info.plist */,
+			);
+			path = "button-customVocalTests";
+			sourceTree = "<group>";
+		};
+		02CB0DF21E7F761B00517DB0 /* button-customVocalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02CB0DF31E7F761B00517DB0 /* button_customVocalUITests.m */,
+				02CB0DF51E7F761B00517DB0 /* Info.plist */,
+			);
+			path = "button-customVocalUITests";
+			sourceTree = "<group>";
+		};
+		02CB0E011E7F766500517DB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02CB0E021E7F766500517DB0 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02CB0DCA1E7F761B00517DB0 /* button-customVocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CB0DF81E7F761B00517DB0 /* Build configuration list for PBXNativeTarget "button-customVocal" */;
+			buildPhases = (
+				02CB0DC71E7F761B00517DB0 /* Sources */,
+				02CB0DC81E7F761B00517DB0 /* Frameworks */,
+				02CB0DC91E7F761B00517DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "button-customVocal";
+			productName = "button-customVocal";
+			productReference = 02CB0DCB1E7F761B00517DB0 /* button-customVocal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02CB0DE31E7F761B00517DB0 /* button-customVocalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CB0DFB1E7F761B00517DB0 /* Build configuration list for PBXNativeTarget "button-customVocalTests" */;
+			buildPhases = (
+				02CB0DE01E7F761B00517DB0 /* Sources */,
+				02CB0DE11E7F761B00517DB0 /* Frameworks */,
+				02CB0DE21E7F761B00517DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02CB0DE61E7F761B00517DB0 /* PBXTargetDependency */,
+			);
+			name = "button-customVocalTests";
+			productName = "button-customVocalTests";
+			productReference = 02CB0DE41E7F761B00517DB0 /* button-customVocalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02CB0DEE1E7F761B00517DB0 /* button-customVocalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CB0DFE1E7F761B00517DB0 /* Build configuration list for PBXNativeTarget "button-customVocalUITests" */;
+			buildPhases = (
+				02CB0DEB1E7F761B00517DB0 /* Sources */,
+				02CB0DEC1E7F761B00517DB0 /* Frameworks */,
+				02CB0DED1E7F761B00517DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02CB0DF11E7F761B00517DB0 /* PBXTargetDependency */,
+			);
+			name = "button-customVocalUITests";
+			productName = "button-customVocalUITests";
+			productReference = 02CB0DEF1E7F761B00517DB0 /* button-customVocalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02CB0DC31E7F761B00517DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JuZiShu;
+				TargetAttributes = {
+					02CB0DCA1E7F761B00517DB0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JR4HRCKAPD;
+						ProvisioningStyle = Automatic;
+					};
+					02CB0DE31E7F761B00517DB0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JR4HRCKAPD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02CB0DCA1E7F761B00517DB0;
+					};
+					02CB0DEE1E7F761B00517DB0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JR4HRCKAPD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02CB0DCA1E7F761B00517DB0;
+					};
+				};
+			};
+			buildConfigurationList = 02CB0DC61E7F761B00517DB0 /* Build configuration list for PBXProject "button-customVocal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02CB0DC21E7F761B00517DB0;
+			productRefGroup = 02CB0DCC1E7F761B00517DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02CB0DCA1E7F761B00517DB0 /* button-customVocal */,
+				02CB0DE31E7F761B00517DB0 /* button-customVocalTests */,
+				02CB0DEE1E7F761B00517DB0 /* button-customVocalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02CB0DC91E7F761B00517DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CB0DDE1E7F761B00517DB0 /* LaunchScreen.storyboard in Resources */,
+				02CB0DDB1E7F761B00517DB0 /* Assets.xcassets in Resources */,
+				02CB0E051E7F78FC00517DB0 /* tabBarVocal.mp3 in Resources */,
+				02CB0DD91E7F761B00517DB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CB0DE21E7F761B00517DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CB0DED1E7F761B00517DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02CB0DC71E7F761B00517DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CB0DD61E7F761B00517DB0 /* ViewController.m in Sources */,
+				02CB0DD31E7F761B00517DB0 /* AppDelegate.m in Sources */,
+				02CB0DD01E7F761B00517DB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CB0DE01E7F761B00517DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CB0DE91E7F761B00517DB0 /* button_customVocalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CB0DEB1E7F761B00517DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CB0DF41E7F761B00517DB0 /* button_customVocalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02CB0DE61E7F761B00517DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02CB0DCA1E7F761B00517DB0 /* button-customVocal */;
+			targetProxy = 02CB0DE51E7F761B00517DB0 /* PBXContainerItemProxy */;
+		};
+		02CB0DF11E7F761B00517DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02CB0DCA1E7F761B00517DB0 /* button-customVocal */;
+			targetProxy = 02CB0DF01E7F761B00517DB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02CB0DD71E7F761B00517DB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CB0DD81E7F761B00517DB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02CB0DDC1E7F761B00517DB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CB0DDD1E7F761B00517DB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02CB0DF61E7F761B00517DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02CB0DF71E7F761B00517DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02CB0DF91E7F761B00517DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = "button-customVocal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zj.button-customVocal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02CB0DFA1E7F761B00517DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = "button-customVocal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zj.button-customVocal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02CB0DFC1E7F761B00517DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = "button-customVocalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zj.button-customVocalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/button-customVocal.app/button-customVocal";
+			};
+			name = Debug;
+		};
+		02CB0DFD1E7F761B00517DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = "button-customVocalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zj.button-customVocalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/button-customVocal.app/button-customVocal";
+			};
+			name = Release;
+		};
+		02CB0DFF1E7F761B00517DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = "button-customVocalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zj.button-customVocalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "button-customVocal";
+			};
+			name = Debug;
+		};
+		02CB0E001E7F761B00517DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = "button-customVocalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zj.button-customVocalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "button-customVocal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02CB0DC61E7F761B00517DB0 /* Build configuration list for PBXProject "button-customVocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CB0DF61E7F761B00517DB0 /* Debug */,
+				02CB0DF71E7F761B00517DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CB0DF81E7F761B00517DB0 /* Build configuration list for PBXNativeTarget "button-customVocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CB0DF91E7F761B00517DB0 /* Debug */,
+				02CB0DFA1E7F761B00517DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CB0DFB1E7F761B00517DB0 /* Build configuration list for PBXNativeTarget "button-customVocalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CB0DFC1E7F761B00517DB0 /* Debug */,
+				02CB0DFD1E7F761B00517DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CB0DFE1E7F761B00517DB0 /* Build configuration list for PBXNativeTarget "button-customVocalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CB0DFF1E7F761B00517DB0 /* Debug */,
+				02CB0E001E7F761B00517DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02CB0DC31E7F761B00517DB0 /* Project object */;
+}
